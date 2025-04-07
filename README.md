@@ -1,11 +1,10 @@
 # cap5771sp25-project
 
-
-### Environment & Economic
+### G20Climate-Economy Dynamics: Machine Learning Models and Interactive Visualization Dashboard
 
 **Summary**
 
-This project aims to elucidate the complex relationships between carbon dioxide emissions, sustainable energy practices, and key economic indicators in the G20 nations from 2000-2020. Leveraging comprehensive datasets sourced from Kaggle, the analysis will examine how variables such as renewable energy share, low-carbon electricity percentage, and CO2 emissions correlate with economic measures like GDP per capita, GDP growth rates, and exchange rates.
+This project utilizes machine learning and interactive dashboards to investigate the interconnections between carbon emissions, energy sustainability, and economic growth among G20 countries from 2000 to 2020. By employing extensive datasets sourced from Kaggle, the research implements predictive modeling techniques to estimate per capita CO₂ emissions (CO2_per_capita) and GDP growth rates (gdp_growth). Additionally, classification models are utilized to categorize nations into high and low carbon emitters as well as different tiers of energy efficiency, thereby providing valuable insights into global sustainability trends. The machine learning framework incorporates both regression and classification methodologies, which are refined through cross-validation and feature selection processes. The findings are presented through an interactive dashboard, developed using Plotly Dash or Streamlit, which facilitates the exploration of dynamic correlations—such as the relationship between GDP per capita and emissions—and allows for the simulation of scenario-based outcomes. By integrating data science with environmental economics, this project establishes a scalable framework for evaluating climate policies and their socio-economic implications, highlighting the importance of data-driven approaches to decarbonization.
 
 **Data Sources**
 
@@ -19,8 +18,7 @@ This dataset presents an analysis of sustainable energy indicators and various r
 
 This dataset will facilitate predictions regarding global warming.
 
-
-[G20 Countries' Currency Exchange Rates against USD](https://www.kaggle.com/datasets/mohamedharris/g20-countries-currency-exchange-rates-against-usd)
+[G20 Countries&#39; Currency Exchange Rates against USD](https://www.kaggle.com/datasets/mohamedharris/g20-countries-currency-exchange-rates-against-usd)
 
 This dataset includes the currency exchange rates of G20 countries in relation to the US dollar, thereby facilitating a comprehensive understanding of the macroeconomic landscape.
 
@@ -46,7 +44,7 @@ This project follows the **CRISP-DM (Cross Industry Standard Process for Data Mi
 
 **1. Data Collection & Preprocessing**
 
-Acquire datasets from Kaggle 
+Acquire datasets from Kaggle
 
 Data Cleaning and Preprocessing
 
@@ -56,10 +54,9 @@ visualization Analysis
 
 **3. Feature Engineering & Modeling**
 
-
+Machine learning skill
 
 **4. Dashboard Development**
-
 
 **Repository Structure**
 
@@ -82,7 +79,6 @@ cap5771sp25-project/
 │   ├── Renewable_energy.ipynb
 ```
 
-
 **Tech Stack**
 
 **Programming Language:** Python
@@ -92,3 +88,5 @@ cap5771sp25-project/
 **Data Storage:** SQLite (if necessary for structured queries)
 
 **Version Control:** GitHub,Git
+
+ **Computing Resource: HiperGator (University of Florida's supercomputer)**
