@@ -34,9 +34,7 @@ Utilize Python for data wrangling, visualization, and modeling.
 
 **Interactive Dashboard**
 
-Geospatial patterns (G20 countries)
-
-Time series trends (Economic indicator/CO2 emission/Sustainable Energy)
+GDP Predictions(G20)
 
 **Methodology**
 
@@ -50,13 +48,11 @@ Data Cleaning and Preprocessing
 
 **2. Exploratory Data Analysis (EDA)**
 
-visualization Analysis
+Visualization Analysis
 
 **3. Feature Engineering & Modeling**
 
-Machine learning skill
-
-**4. Dashboard Development**
+Machine learning skills
 
 **Repository Structure**
 
@@ -70,13 +66,22 @@ cap5771sp25-project/
 │   ├── New_CO2_emission_by_countries.csv
 │   ├── New_G20_Exchange_Rates.csv
 │   ├── New_global_data_on_sustainable_energy.csv
+│   ├── Gdp_test_set.csv
+│   ├── Final_merged_data.csv
 ├── Report/
 │   ├── Reports/Milestone1
+│   ├── Reports/Milestone2
+│   ├── Reports/Milestone3
 ├── Scripts/
 │   ├── Co2_data_Cleaning.ipynb
 │   ├── Exchange_rate.ipynb
 │   ├── final_combination.ipynb
 │   ├── Renewable_energy.ipynb
+│   ├── Milestone2.ipynb
+│   ├── evaluate.ipynb
+│   ├── gdp_dashboard.py
+│   ├── Co2_emission_classification.py
+│   ├── energy_efficiency_classifier.py
 ```
 
 **Tech Stack**
@@ -89,4 +94,6 @@ cap5771sp25-project/
 
 **Version Control:** GitHub,Git
 
- **Computing Resource: HiperGator (University of Florida's supercomputer)**
+**Computing Resource: HiperGator (University of Florida's supercomputer)**
+
+**Demo Video : [Demo Video](https://youtu.be/E9T_1hrhq1Q?si=uQHr1jYKa4NfocxH)**
